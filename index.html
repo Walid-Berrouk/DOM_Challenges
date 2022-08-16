@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Challenges</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Challenge 01 -->
+    <h1 class="center fixed">DOM Manipulation</h1>
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 01</h1>
+        <br>
+        <br>
+        <h2 id ='ch1_text'>I'm a Unique element, Click below to know my name!</h2> 
+        <button id="ch1_js" onclick="ch1_js()">Click Me</button>
+    </section>
+    <!-- Challenge 02 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 02</h1>
+        <br>
+        <br>
+        <div class="border p-20">
+            <h2>Beautiful Paragraph</h2>
+            <p id="ch2_text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem natus esse accusantium dolorem vero officia suscipit ullam, nam ad accusamus tempora, consectetur deleniti veniam quo aut recusandae eum sapiente, cum expedita fugit! Non culpa quis deserunt minus eum obcaecati totam vitae! Sint, dolores ducimus, nostrum iure ad deserunt ab quas laborum in aperiam quos? Sunt blanditiis soluta cum quas possimus totam aliquid, consequatur ipsum optio aspernatur excepturi ex obcaecati rerum, dolorem odio corporis saepe explicabo facere. Tenetur deleniti earum cupiditate.
+            </p>
+            <button id="ch2_js" onclick="ch2_js()">Click Here to style</button>
+        </div>
+    </section>
+    <!-- Challenge 03 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 03</h1>
+        <br>
+        <br>
+        <div id="ch3_div" class="border p-20">
+            <h2>I'm a little Paragraph, but do you know that i have twin brothers ?</h2>
+            <p id="ch3_text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem natus esse accusantium dolorem vero officia suscipit ullam, nam ad accusamus tempora, consectetur deleniti veniam quo aut recusandae eum sapiente, cum expedita fugit! Non culpa quis deserunt minus eum obcaecati totam vitae! Sint, dolores ducimus, nostrum iure ad deserunt ab quas laborum in aperiam quos? Sunt blanditiis soluta cum quas possimus totam aliquid, consequatur ipsum optio aspernatur excepturi ex obcaecati rerum, dolorem odio corporis saepe explicabo facere. Tenetur deleniti earum cupiditate.
+            </p>
+            <button id="ch3_js" onclick="ch3_js()">Click Here to See them</button>
+        </div>
+    </section>
+    <!-- Challenge 04 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 04</h1>
+        <br>
+        <br>
+        <div id="ch4_div" class="border p-20 center">
+            <form>
+                <select id="ch4_select" class="p-20 center">
+                    <option>Red</option>
+                    <option>Green</option>
+                    <option>White</option>
+                    <option>Black</option>
+                    <option>Grey</option>
+                    <option>Magenta</option>
+                    <option>Blue</option>
+                    <option>Orange</option>
+                </select>
+                <input type="button" onclick="ch4_js()" value="Select and Remove">
+            </form>
+        </div>
+    </section>
+    <!-- Challenge 05 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 05</h1>
+        <br>
+        <br>
+        <div id="ch5_div" class="border p-20">
+            <h2>Get to know all about me !</h2>
+            <p>
+                <p><a id="ch5_link" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3resource</a></p>
+            </p>
+            <button id="ch5_js" onclick="ch5_js()">Click Here to Get Attributes</button>
+        </div>
+    </section>
+    <!-- Challenge 06 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 06</h1>
+        <br>
+        <br>
+        <div id="ch6_div" class="border p-20">
+            <h2>Fill your information</h2>
+            <form id="ch6_form" onsubmit="ch6_js()">
+                First name: <input type="text" name="firstName" value="David"><br>
+                Last name: <input type="text" name="lastName" value="Beckham"><br>
+                <input type="submit" value="Let's Discover who you are">
+            </form>
+        </div>
+    </section>
+    <!-- Challenge 07 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 07</h1>
+        <br>
+        <br>
+        <div id="ch7_div" class="border p-20">
+            <form>
+                Select your favorite Color :
+                <select id="ch7_select">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>White</option>
+                </select>
+                <input type="button" onclick="ch7_js()" value="Count and Output all items">
+                </form>
+        </div>
+    </section>
+    <!-- Challenge 08 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 08</h1>
+        <br>
+        <br>
+        <div id="ch8_div" class="border p-20">
+            <h2>Input radius value and get the volume of a sphere</h2>
+            <form action="" method="post" id="ch8_form">
+
+                <label for="radius">Radius</label><input type="text" name="radius" id="radius" required>
+                <label for="volume">Volume</label><input type="text" name="volume" id="volume">
+                <input type="submit" value="Calculate" id="submit">
+            </form>
+        </div>
+    </section>
+
+    <!-- Challenge 09 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 09</h1>
+        <br>
+        <br>
+        <div id="ch9_div" class="border p-20">
+            <p></p>
+            <button id="jsstyle" onclick="display_random_image();">Show Image</button> 
+        </div>
+    </section>
+
+    <!-- Challenge 10 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 10</h1>
+        <br>
+        <br>
+        <div id="ch10_div" class="border p-20">
+            <h2>Catch me if you can !</h2>
+            <div class="grid center col-3 justify-center">
+                <div id="1" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="2" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="3" class="box" onclick="ch10_js(this.id)"><p>You can't catch me hhhhhhhh</p></div>
+                <div id="4" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="5" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="6" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="7" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="8" class="box" onclick="ch10_js(this.id)"></div>
+                <div id="9" class="box" onclick="ch10_js(this.id)"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Challenge 11 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 11</h1>
+        <br>
+        <br>
+        <div id="ch11_div" class="border p-20">
+            <h2>Get And Style All Tags</h2>
+            <p>[<a href="#" onMouseOver="highlight()" onMouseOut="return_normal()">On mouse over here bold words of the following paragraph will be highlighted</a>]</p> 
+            <p class="text-20"><strong>We</strong> have just started <strong>this</strong> section for the users (<strong>beginner</strong> to intermediate) who <strong>want</strong> to work with <strong>various</strong> JavaScript <strong>problems</strong> and write scripts online to <strong>test</strong> their JavaScript <strong>skill</strong>.</p>
+        </div>
+    </section>
+    <!-- Challenge 12 -->
+    <br>
+    <br>
+    <section class="h-full">
+        <h1>Challenge 12</h1>
+        <br>
+        <br>
+        <div id="ch12_div" class="border p-20">
+            <h2>Window Size : height and width</h2>
+            <!-- Resize the window (here output panel) and see the result !-->
+            <body onload="getSize()" onresize="getSize()">
+            <div id="wh"> 
+            <!-- Place height and width size here! --> 
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
